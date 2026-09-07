@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "brand": "Meet妙记",
+  "product": "Mionote",
+  "repository": "https://github.com/MeetMiaoji/mionote-assets",
+  "url_policy": {
+    "agentx_preview": "Use github_blob_url when AgentX needs to inspect an image visually.",
+    "mcp_upload": "Use raw_url when an MCP or publishing tool needs the image bytes."
+  },
+  "assets": [
+    {"id":"logo","category":"logo","description":"Meet妙记品牌 Logo","path":"mionote_logo.png"},
+    {"id":"cover-16x9-01","category":"cover","description":"Meet妙记 16:9 产品封面 1","path":"covers/cover-16x9-01.jpg"},
+    {"id":"cover-16x9-02","category":"cover","description":"Meet妙记 16:9 产品封面 2","path":"covers/cover-16x9-02.jpg"},
+    {"id":"promo-privacy","category":"promotional","description":"隐私与安全卖点宣传图","path":"promotional/privacy.png"},
+    {"id":"promo-recording-ai-summary","category":"promotional","description":"笔记录音转纪要与 AI 纪要生成界面","path":"promotional/recording-ai-summary.png"},
+    {"id":"promo-realtime-summary","category":"promotional","description":"实时转录与结构化纪要界面","path":"promotional/realtime-transcription-summary.png"},
+    {"id":"promo-brand-meeting-list","category":"promotional","description":"品牌名与会议列表界面","path":"promotional/brand-meeting-list.png"},
+    {"id":"promo-background-recording","category":"promotional","description":"后台记录优势宣传图","path":"promotional/background-recording.png"},
+    {"id":"app-home","category":"screenshot","description":"App 首页","path":"screenshots/app-home.png"},
+    {"id":"app-meeting","category":"screenshot","description":"App 查看会议纪要","path":"mionote_app_meeting.png"},
+    {"id":"app-meeting-realtime-transcription","category":"screenshot","description":"App 会议纪要实时转录","path":"screenshots/app-meeting-realtime-transcription.png"},
+    {"id":"app-meeting-download","category":"screenshot","description":"App 会议纪要下载","path":"screenshots/app-meeting-download.png"},
+    {"id":"app-note-recording","category":"screenshot","description":"App 记录笔记","path":"screenshots/app-note-recording.png"},
+    {"id":"app-note-summary-generating","category":"screenshot","description":"App AI 纪要生成中","path":"screenshots/app-note-summary-generating.png"},
+    {"id":"app-note-photo","category":"screenshot","description":"App 拍照记录","path":"screenshots/app-note-photo.png"},
+    {"id":"app-note-photo-ocr","category":"screenshot","description":"App 拍照提取文字","path":"screenshots/app-note-photo-ocr.png"},
+    {"id":"app-note-transcript-expanded","category":"screenshot","description":"App 展开转录内容","path":"screenshots/app-note-transcript-expanded.png"},
+    {"id":"app-note-transcript-search","category":"screenshot","description":"App 转录内容搜一搜","path":"screenshots/app-note-transcript-search.png"},
+    {"id":"desktop-login","category":"screenshot","description":"桌面端登录页","path":"screenshots/desktop-login.png"},
+    {"id":"desktop-home","category":"screenshot","description":"桌面端主页高清原图","path":"screenshots/desktop-home-hd.png"},
+    {"id":"desktop-recording","category":"screenshot","description":"桌面端会议录制页高清原图","path":"screenshots/desktop-recording-hd.png"},
+    {"id":"desktop-review","category":"screenshot","description":"桌面端纪要回顾页","path":"screenshots/desktop-review.png"},
+    {"id":"desktop-drag-group","category":"screenshot","description":"桌面端拖拽分组","path":"screenshots/desktop-drag-group.png"}
+  ],
+  "url_templates": {
+    "github_blob_url": "https://github.com/MeetMiaoji/mionote-assets/blob/main/{path}",
+    "raw_url": "https://raw.githubusercontent.com/MeetMiaoji/mionote-assets/main/{path}"
+  }
+}

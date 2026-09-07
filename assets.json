@@ -9,8 +9,6 @@
   },
   "assets": [
     {"id":"logo","category":"logo","description":"Meet妙记品牌 Logo","path":"mionote_logo.png"},
-    {"id":"cover-16x9-01","category":"cover","description":"Meet妙记 16:9 产品封面 1","path":"covers/cover-16x9-01.jpg"},
-    {"id":"cover-16x9-02","category":"cover","description":"Meet妙记 16:9 产品封面 2","path":"covers/cover-16x9-02.jpg"},
     {"id":"promo-privacy","category":"promotional","description":"隐私与安全卖点宣传图","path":"promotional/privacy.png"},
     {"id":"promo-recording-ai-summary","category":"promotional","description":"笔记录音转纪要与 AI 纪要生成界面","path":"promotional/recording-ai-summary.png"},
     {"id":"promo-realtime-summary","category":"promotional","description":"实时转录与结构化纪要界面","path":"promotional/realtime-transcription-summary.png"},
